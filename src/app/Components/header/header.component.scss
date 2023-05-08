@@ -1,0 +1,32 @@
+#title{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+span{
+    font-size: 40px;
+    margin-right: 10px;
+    color: green;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+  
+.navbar-brand {
+  margin: 0 auto;
+}
+
+button{
+  border: none;
+  background-color: rgb(255, 255, 255)
+}
+
+mat-icon{
+  margin: 15px 15px 15px 15px;
+  transform: scale(2.0);
+  color: rgb(40, 167, 69);
+}
+  
