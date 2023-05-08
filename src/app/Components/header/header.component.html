@@ -1,18 +1,41 @@
 <nav class="navbar navbar-expand-lg" style="background-color: rgb(150, 123, 182);">
-  <div class="container d-flex justify-content-center flex-column align-items-center">
-    <h1 id="title" class="navbar-brand" href="#" style="font-size: 45px;">Nature</h1>
-    <p class="mt-2">by Joao Pimenta</p>
-  </div>
-  
-  <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button> -->
-  <div>
-    <button>
-      <mat-icon svgIcon="instagram2" (click)="navigateTo('https://www.instagram.com/joao.giudice/')"></mat-icon>
+  <div class="container-fluid">
+    <div class="d-flex flex-column">
+      <h1 id="title" class="navbar-brand" style="font-size: 45px;">Nature</h1>
+      <p style="margin-left: 8px;">by Joao Pimenta</p>
+    </div>    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <button>
-      <mat-icon svgIcon="facebook" (click)="navigateTo('https://www.facebook.com/joaohpg')"></mat-icon>
-    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+        <li class="nav-item">
+          <a class="white-color" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="white-color" href="#">Birds</a>
+        </li>
+        <li class="nav-item">
+          <a class="white-color" href="#">Flowers</a>
+        </li>
+        <li class="nav-item">
+          <a class="white-color" href="#">Animals</a>
+        </li>
+        <li class="nav-item">
+          <a class="white-color" href="#">Landscape</a>
+        </li>
+      </ul>      
+      <div class="row justify-content-center">
+        <div class="col-sm-6 d-flex align-items-center justify-content-center text-center" style="margin-top: 10px;">
+          <button>
+            <mat-icon svgIcon="instagram2" (click)="navigateTo('https://www.instagram.com/joao.giudice/')"></mat-icon>
+          </button>
+          <button>
+            <mat-icon svgIcon="facebook" (click)="navigateTo('https://www.facebook.com/joaohpg')"></mat-icon>
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </nav>
+
