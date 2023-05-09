@@ -15,7 +15,7 @@ export class BirdsComponent {
   constructor() { }
 
   ngOnInit() {
-    for (let i = 1; i < 100; i++) {
+    for (let i = 1; i < 115; i++) {
       this.photos.push(`./assets/img/birds/${i}.jpg`);
     }
   }
