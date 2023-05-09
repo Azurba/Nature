@@ -13,16 +13,18 @@
     margin-bottom: 10px;
     margin-top: 10px;
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: transform 0.1s;
   }
 
   .clickable-image {
     cursor: pointer;
-    transition: transform 0.2s;
+    transition: transform 0.1s;
+    filter: grayscale(100%);
   }
   
   .clickable-image:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
+    filter: grayscale(0%);
   }
 
   img {
