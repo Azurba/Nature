@@ -15,7 +15,7 @@ export class HomeComponent {
     },
     {
       title: "Flowers",
-      picture: "./assets/img/flowers/34.jpg",
+      picture: "./assets/img/flowers/54.jpg",
       router: "/flowers" 
     },
     {
