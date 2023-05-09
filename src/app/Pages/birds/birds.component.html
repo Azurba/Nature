@@ -1,7 +1,7 @@
 <div class="photo-grid">
     <div class="row">
       <div class="col-md-4" id="photo-item"  *ngFor="let photo of photos" >
-        <img [src]="photo" class="img-fluid" (click)="openOverlay(photo)">
+        <img [src]="photo" class="img-fluid clickable-image" (click)="openOverlay(photo)">
         <div class="overlay" *ngIf="selectedImage === photo">
             <span class="close-button" (click)="closeOverlay()">&times;</span>
             <img [src]="photo" alt="Enlarged Photo" title="Enlarged Photo" class="enlarged-photo">
@@ -9,5 +9,5 @@
       </div>
     </div>
 </div>
-  
+
   
