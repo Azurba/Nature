@@ -10,6 +10,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 export class BirdsComponent {
 
   photos : string[] = [];
+  selectedImage: string | null = null;
 
   constructor() { }
 
@@ -17,6 +18,14 @@ export class BirdsComponent {
     for (let i = 1; i < 100; i++) {
       this.photos.push(`./assets/img/birds/${i}.jpg`);
     }
+  }
+
+  openOverlay(photo: string) {
+    this.selectedImage = photo;
+  }
+
+  closeOverlay() {
+    this.selectedImage = null;
   }
 }
 
