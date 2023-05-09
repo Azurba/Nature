@@ -6,7 +6,7 @@
 
 h1{
     margin-right: 10px;
-    color: white
+    color: rgb(150, 123, 182)
 }
 
 .navbar {
@@ -20,17 +20,17 @@ h1{
 
 button{
   border: none;
-  background-color: rgb(150, 123, 182)
+  background-color: black
 }
 
 mat-icon{
   margin: 15px 15px 15px 15px;
   transform: scale(1.5);
-  color: white
+  color: rgb(150, 123, 182)
 }
 
 p{
-  color: white;
+  color: rgb(150, 123, 182)
 }
   
 .navbar-toggler-icon {
@@ -38,7 +38,7 @@ p{
 }
 
 .navbar-toggler {
-  border-color: rgb(255,255,255);
+  border-color: rgb(150, 123, 182)
 } 
 
 a{
@@ -50,7 +50,7 @@ a{
 }
 
 a.white-color {
-  color: white;
+  color: rgb(150, 123, 182);
   text-decoration: none;
 }
 
