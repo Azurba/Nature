@@ -1,6 +1,6 @@
 <div class="photo-grid">
     <div class="row">
-      <div class="col-md-4" id="photo-item"  *ngFor="let photo of photos" >
+      <div class="col-md-3" id="photo-item"  *ngFor="let photo of photos" >
         <img [src]="photo" class="img-fluid clickable-image" (click)="openOverlay(photo)">
         <div class="overlay" *ngIf="selectedImage === photo">
             <span class="close-button" (click)="closeOverlay()">&times;</span>
