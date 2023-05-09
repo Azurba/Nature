@@ -19,12 +19,23 @@
   .clickable-image {
     cursor: pointer;
     transition: transform 0.1s;
-    filter: grayscale(100%);
   }
   
   .clickable-image:hover {
     transform: scale(1.03);
-    filter: grayscale(0%);
+  }
+
+  @media (min-width: 768px){
+    .clickable-image {
+      cursor: pointer;
+      transition: transform 0.1s;
+      filter: grayscale(100%);
+    }
+    
+    .clickable-image:hover {
+      transform: scale(1.03);
+      filter: grayscale(0%);
+    }
   }
 
   img {
