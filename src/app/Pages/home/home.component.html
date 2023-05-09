@@ -1,1 +1,15 @@
-<p>home-works</p>
+
+<div class="photo-grid">
+    <div class="row">
+      <div class="col-md-6" id="photo-item" *ngFor="let card of cards">
+        <div class="image-wrapper">
+          <img [src]="card.picture" class="img-fluid clickable-image">
+          <div class="image-content">
+            <h1 class="image-title">{{card.title}}</h1>
+            <button type="button" class="btn btn-warning" routerLink={{card.router}}>More Photos</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

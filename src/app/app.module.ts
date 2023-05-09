@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FlowersComponent } from './Pages/flowers/flowers/flowers.component';
 import { AnimalsComponent } from './Pages/animals/animals/animals.component';
 import { LandscapesComponent } from './Pages/landscapes/landscapes/landscapes.component';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LandscapesComponent } from './Pages/landscapes/landscapes/landscapes.co
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

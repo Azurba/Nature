@@ -6,7 +6,7 @@
 
 h1{
     margin-right: 10px;
-    color: rgb(150, 123, 182)
+    color: black
 }
 
 .navbar {
@@ -20,26 +20,26 @@ h1{
 
 button{
   border: none;
-  background-color: black
+  background-color: rgb(255, 204, 0)
 }
 
 mat-icon{
   margin: 15px 15px 15px 15px;
   transform: scale(1.5);
-  color: rgb(150, 123, 182)
+  color: 255, 204, 0
 }
 
 p{
-  color: rgb(150, 123, 182)
+  color: black
 }
   
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(150, 123, 182' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0) stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .navbar-toggler {
-  border-color: rgb(150, 123, 182)
-} 
+  border-color: black
+}
 
 a{
   font-size: 25px;
@@ -50,7 +50,7 @@ a{
 }
 
 a.white-color {
-  color: rgb(150, 123, 182);
+  color: black;
   text-decoration: none;
 }
 
