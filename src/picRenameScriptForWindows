@@ -1,0 +1,17 @@
+$folderPath = "C:\Users\joaoh\Desktop\Nature_Selected"
+
+# Get all files in the folder
+$files = Get-ChildItem -Path $folderPath -Filter "*.jpg" -File
+
+# Sort the files by name
+$sortedFiles = $files | Sort-Object -Property Name
+
+# Rename the files with ascending numbers
+$i = 1
+foreach ($file in $sortedFiles) {
+    $newName = "{0}\{1}.jpg" -f $folderPath, $i
+    Rename-Item -Path $file.FullName -NewName $newName
+    $i++
+}
+
+# Open powershell and paste this directly
