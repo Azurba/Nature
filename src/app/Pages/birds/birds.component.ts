@@ -9,16 +9,14 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 })
 export class BirdsComponent {
 
-  photos = [
-    { url: 'path/to/photo1.jpg' },
-    { url: 'path/to/photo2.jpg' },
-    { url: 'path/to/photo3.jpg' },
-    // Add more photo objects here
-  ];
+  photos : string[] = [];
 
   constructor() { }
+
+  ngOnInit() {
+    for (let i = 1; i < 100; i++) {
+      this.photos.push(`./assets/img/birds/${i}.jpg`);
+    }
+  }
 }
-
-
-  
 
