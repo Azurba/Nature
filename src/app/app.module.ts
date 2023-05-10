@@ -12,6 +12,7 @@ import { FlowersComponent } from './Pages/flowers/flowers/flowers.component';
 import { AnimalsComponent } from './Pages/animals/animals/animals.component';
 import { LandscapesComponent } from './Pages/landscapes/landscapes/landscapes.component';
 import {MatDividerModule} from '@angular/material/divider';
+import { FooterComponent } from './Components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatDividerModule} from '@angular/material/divider';
     FlowersComponent,
     AnimalsComponent,
     LandscapesComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
