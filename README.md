@@ -1,5 +1,10 @@
 # Nature
 
+## About
+
+One of my hobbies is to do birdwatching and take pictures of the nature. I built this website, using 
+Angular, to show the best pictures I took of birds, flowers, animals, and landscapes
+
 ## Video
 
 [Click Here to Watch the Video](https://youtu.be/TN5W-icSBiI)
